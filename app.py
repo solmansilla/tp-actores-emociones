@@ -22,6 +22,19 @@ ALTO_TOP = 150                         # alto de los gráficos de top 3
 MAX_PIXELES = 40_000_000               # 40 megapíxeles: más que eso puede tirar la app por memoria
 
 st.set_page_config(page_title='Actores y Emociones', layout='wide')
+# La página ya está en castellano. Streamlit la marca como inglés y el traductor de Chrome la "traduce":
+# al cambiarle el texto rompe la página (error "removeChild"). Esto marca la página como castellano y no traducible.
+st.html("""<script>
+const raiz = document.documentElement;
+raiz.setAttribute('lang', 'es');
+raiz.setAttribute('translate', 'no');
+raiz.classList.add('notranslate');
+if (!document.querySelector('meta[name="google"]')) {
+  const meta = document.createElement('meta');
+  meta.name = 'google'; meta.content = 'notranslate';
+  document.head.appendChild(meta);
+}
+</script>""", unsafe_allow_javascript=True)
 st.markdown("""
 <style>
 .titulo {font-family: Georgia, 'Times New Roman', serif; font-size: 4.2rem; font-weight: 700;
