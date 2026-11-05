@@ -1,7 +1,22 @@
 [theme]
 base = "light"
-primaryColor = "#E8603C"
-textColor = "#2D3748"
+primaryColor = "#2F4BFF"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F1F3F6"
+textColor = "#172033"
+linkColor = "#2F4BFF"
+borderColor = "#DDE2E8"
+showWidgetBorder = true
+baseRadius = "0.35rem"
+font = "IBM Plex Sans:https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap"
+headingFont = "Archivo:https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..800&display=swap"
+headingFontWeights = [800, 700, 700, 700, 600, 600]
+headingFontSizes = ["2.6rem", "2rem", "1.4rem", "1.15rem"]
+chartCategoricalColors = ["#2F4BFF", "#0E9F8A", "#9AA5B8", "#E0A526", "#C8553D", "#7A5CC4", "#3C6E91"]
+dataframeHeaderBackgroundColor = "#F1F3F6"
+
+[client]
+toolbarMode = "minimal"
 
 [server]
 maxUploadSize = 15
