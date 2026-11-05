@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+# Las redes se bajan de Google Drive al arrancar la app: no se suben al repositorio
+modelos/*.keras
+modelos/*.parcial

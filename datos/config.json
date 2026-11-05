@@ -1,0 +1,47 @@
+{
+  "actores": [
+    "azzaro",
+    "candela_vetrano",
+    "colapinto",
+    "dario_barassi",
+    "dolores_fonzi",
+    "erica_rivas",
+    "eva_de_dominici",
+    "georgina_barbarossa",
+    "griselda_siciliani",
+    "guillermo_francella",
+    "javier_milei",
+    "julio_chavez",
+    "lali_esposito",
+    "momo",
+    "mora_bianchi",
+    "oscar_martinez",
+    "pablo_echarri",
+    "ricardo_darin",
+    "scaloni",
+    "tini_stoessel"
+  ],
+  "emociones": [
+    "alegria",
+    "enojo",
+    "neutral",
+    "sorpresa",
+    "tristeza"
+  ],
+  "tam_img": 224,
+  "umbral_cara": 0.4,
+  "escala_recorte": 1.6,
+  "mejor_cnn": "maxpool_flatten_s7",
+  "parametros_cnn": 2557145,
+  "parametros_tl": 4380732,
+  "keras": "3.13.2",
+  "tensorflow": "2.21.0",
+  "notebook": "TP_CNN_actor_emocion_v2_FINAL.ipynb",
+  "n_train": 2057,
+  "n_val": 460,
+  "n_test": 182,
+  "links_modelos": {
+    "cnn_propia": "https://drive.google.com/file/d/1YWwgifxY1GWAGirXlES524iZbWYsDf2T/view?usp=sharing",
+    "efficientnetb0": "https://drive.google.com/file/d/1p2lA3kA8lyl72zrI7x1RJoIa9f0zQzai/view?usp=sharing"
+  }
+}
